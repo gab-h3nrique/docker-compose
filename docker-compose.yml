@@ -25,7 +25,7 @@ services:
 
   # application service
   api:
-    build: "./socket"
+    build: "../socket"
     container_name: socket-container
     restart: always
     volumes:
